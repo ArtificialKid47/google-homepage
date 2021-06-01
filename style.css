@@ -28,6 +28,7 @@ a:hover {
     display: block;
     padding-top: 7px;
     margin: auto;
+    fill: #5d6368;
 }
 
 .dots_link {
@@ -47,11 +48,83 @@ a:hover {
 
 .gmail_images {
     margin: 5px;
-    color: rgba(0,0,0,0.87);
+    color: #202124;
+    margin-top: 10px;
 }
 
-.
+.sign_in_div {
+    margin-top: 10px;
+}
 
 .sign_in {
     font-size: 14px;
+    background-color: #1a73e8;
+    border-radius: 4px;
+    padding: 9px 23px;
+    color: white;
+}
+
+.sign_in:hover {
+    background-color: #1677f5;
+    text-decoration: none;
+}
+
+#main_logo {
+    margin: auto;
+    display: block;
+    padding-top: 200px;
+}
+
+#mag_lens  {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+    fill: #9aa0a6;
+}
+
+.searchbar_div {
+    display: flex;
+    padding: 5px;
+    border: 1px solid #dfe1e5;
+    width: auto;
+    max-width: 584px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 24px;
+    box-shadow: none;
+    height: 35px;
+}
+
+.searchbar_div:hover {
+    box-shadow: 0 1px 6px rgba(170, 170, 170, 0.39);
+}
+
+#searchbar {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+    margin-left: 10px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.submits {
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 0px 16px;
+    height: 36px;
+    color: #202124;
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 11px 4px;
+    text-align: center;
+}
+
+.submits:hover {
+    text-decoration: none;
+    box-shadow: 0 1px 1px rgb(0, 0, 0, 0.1);
+    border: 1px solid #dadce0;
 }
